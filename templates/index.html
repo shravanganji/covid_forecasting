@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Covid forecasting</title>
+</head>
+<body>
+<form action="/result" method="GET">
+<label for="noOfDays">Select number of days to forecast</label>
+<input type="text" id="noOfDays" name="noOfDays"><br>
+<!-- <label for="data">World/India</label>
+    <select id="data" name="data">
+      <option value="World">World</option>
+      <option value="India">India</option>
+    </select><br> -->
+<input type="submit" value="Submit">
+<br>
+<br>
+{{prediction_values}}
+</form>
+</body>
+</html>
