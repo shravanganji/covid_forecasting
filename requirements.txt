@@ -1,7 +1,6 @@
 Flask==1.1.1
 gevent==1.4.0
 numpy==1.17.0
-tensorflow==2.2.1
 pandas==1.2.0
 matplotlib==3.3.4
 pickle
