@@ -3,6 +3,6 @@ gevent==1.4.0
 numpy==1.17.0
 pandas==1.2.0
 matplotlib==3.3.4
-pickle
+pickle==0.0.1
 Werkzeug==0.16.0
 gunicorn
